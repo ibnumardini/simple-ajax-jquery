@@ -12,13 +12,7 @@
     <script>
         $().ready(function() {
             $('#tombol').click(function() {
-                // $.ajax({
-                //     url: 'server.php',
-                //     success: function(html) {
-                //         $('#tampilan').html(html)
-                //     }
-                // })
-
+                
                 $.ajax({
                     url: 'server.php',
                     type: 'get',
